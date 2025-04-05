@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/postListFragment">
+
+    <!-- Фрагмент с списком постов -->
+    <fragment
+        android:id="@+id/postListFragment"
+        android:name="com.example.apiapp.PostListFragment"
+        android:label="Post List"
+        tools:layout="@layout/fragment_post_list">
+
+        <!-- Навигация на детальный экран -->
+        <action
+            android:id="@+id/action_postListFragment_to_postDetailFragment"
+            app:destination="@id/postDetailFragment" />
+    </fragment>
+
+    <!-- Детальный экран поста -->
+    <fragment
+        android:id="@+id/postDetailFragment"
+        android:name="com.example.apiapp.ItemDetailFragment"
+        android:label="Post Detail"
+        tools:layout="@layout/fragment_post_detail">
+    </fragment>
+
+</navigation>
