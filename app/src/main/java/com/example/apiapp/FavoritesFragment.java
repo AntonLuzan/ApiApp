@@ -9,7 +9,7 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 import androidx.recyclerview.widget.LinearLayoutManager;
 
-import com.example.apiclientapp.databinding.FragmentFavoritesBinding;
+import com.example.apiapp.databinding.FragmentFavoritesBinding;
 
 import java.util.ArrayList;
 

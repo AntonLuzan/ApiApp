@@ -7,7 +7,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.DiffUtil;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.apiclientapp.databinding.ItemPostBinding;
+import com.example.apiapp.databinding.ItemPostBinding;
 
 import java.util.ArrayList;
 import java.util.List;

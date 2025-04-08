@@ -1,12 +1,11 @@
 package com.example.apiapp;
-
 import retrofit2.Retrofit;
 import retrofit2.adapter.rxjava3.RxJava3CallAdapterFactory;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 public class ApiService {
 
-    private static final String BASE_URL = "https://jsonplaceholder.typicode.com/posts";
+    private static final String BASE_URL = "https://jsonplaceholder.typicode.com/posts/";
     private static ApiService instance;
     private final ApiInterface apiInterface;
 

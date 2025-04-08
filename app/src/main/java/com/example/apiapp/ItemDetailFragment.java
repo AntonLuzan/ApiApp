@@ -9,7 +9,7 @@ import android.widget.Toast;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.example.apiclientapp.databinding.FragmentPostDetailBinding;
+import com.example.apiapp.databinding.FragmentPostDetailBinding;
 
 public class ItemDetailFragment extends Fragment {
 
